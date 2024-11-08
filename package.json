@@ -1,0 +1,40 @@
+{
+  "name": "@felipelaptrin/ses-demo",
+  "version": "0.0.1",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc",
+    "compile": "tsc --pretty --noEmit",
+    "deploy": "cdk deploy",
+    "diff": "cdk diff",
+    "synth": "cdk synth",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "prettier": "prettier --check src/",
+    "prettier:fix": "prettier --write src/"
+  },
+  "dependencies": {
+    "aws-cdk": "^2.159.1",
+    "aws-cdk-lib": "^2.159.1",
+    "constructs": "^10.3.0",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.0",
+    "@types/node": "^22.5.5",
+    "eslint": "^9.11.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.6.0"
+  },
+  "prettier": {
+    "printWidth": 120
+  },
+  "engines": {
+    "npm": "please-use-yarn",
+    "node": ">=18",
+    "yarn": "~1.22.0 <2"
+  }
+}
